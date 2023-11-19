@@ -1,0 +1,202 @@
+/* CSS definition file containing sitestyle stylesheets */
+BODY { background-image: url( "https://magneto.net.co/assets/images/background.gif" );
+	background-repeat: repeat-y;
+	background-color:transparent;
+	background-position: 50% 0px;
+	font-family : Arial;
+	font-size : 16px;
+	color : rgb(67,67,63);
+	line-height : 1.5em}
+
+.card {
+	height: 200px !important;
+}
+
+BODY.nof-centerBody {
+	background-position: 50% 0px
+}
+.link-actualizado-hover {
+	border-bottom: 2px solid transparent;
+	transition: all .5s;
+}
+.link-actualizado-hover:hover {
+	border-bottom: 2px solid #0dcaf0;
+}
+td,tr,th {
+	background-color: transparent !important;
+}
+ h1 { font-family: Georgia; font-size: 36px; color: rgb(0, 0, 0)}
+ span { font-family: Georgia; color: rgb(0, 0, 0)}
+ h2 { font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif; font-size: 28px; color: #000000; font-weight: bold}
+.nof_SpryNylonBanners1-Banner1 {
+font-family: Georgia ; font-size:36px; font-weight:normal; font-style:normal; color:rgb(0, 0, 0) 
+}
+.nof_SpryNylonNavbar2-Regular {
+font-family:Arial; font-size:12px; font-weight:400; font-style:normal; color:black
+}
+
+.nof_SpryNylonNavbar4-Rollover {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:black
+}
+
+.nof_SpryNylonNavbar6-Highlighted {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:black
+}
+
+.nof_SpryNylonNavbar8-HighlightedRollover {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:black
+}
+
+.nof_SpryNylonNavbar3-Regular {
+font-family:Arial; font-size:12px; font-weight:400; font-style:normal; color:black 
+}
+
+.nof_SpryNylonNavbar5-Rollover {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:black 
+}
+
+.nof_SpryNylonNavbar7-Highlighted {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:black 
+}
+
+.nof_SpryNylonNavbar9-HighlightedRollover {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:black 
+}
+H3 {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	color: rgb(0, 0, 0);
+	font-size: 16px
+}
+H4 {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	color: rgb(50,77,21);
+ 	font-weight: bold
+}
+
+H5 {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	color: rgb(50,77,21);
+ 	font-weight: bold
+}
+
+H6 {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	color: rgb(50,77,21)
+}
+
+A {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	font-size: 14px;
+ 	line-height: 1.5em
+}
+
+UL {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	font-size: 14px;
+ 	color: rgb(67,67,63);
+ 	line-height: 1.5em
+}
+
+OL {
+	font-family: Arial,       Helvetica,       Geneva,       Sans-serif,       sans-serif;
+ 	font-size: 14px;
+ 	color: rgb(67,67,63);
+ 	line-height: 1.5em
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal {
+    background: transparent url( "../assets/images/nof-carousel-nav-right-lt.png" ) no-repeat 95% 50% /* next */
+}
+
+.jcarousel-skin-nof:hover .jcarousel-next-horizontal {
+	background-image: url( "../assets/images/nof-carousel-nav-right-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-next-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-right-lt.png" ) /* prev */
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-left-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-right-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:active {
+    background-image: url( "../assets/images/nof-carousel-nav-right-dk.png" )
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-horizontal {
+    background: transparent url( "../assets/images/nof-carousel-nav-left-lt.png" ) no-repeat 5% 50% /* prev */
+}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-horizontal {
+	background-image: url( "../assets/images/nof-carousel-nav-left-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-prev-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-left-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-right-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-left-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:active {
+    background-image: url( "../assets/images/nof-carousel-nav-left-dk.png" )
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-nof .jcarousel-next-vertical {
+    background: transparent url( "../assets/images/nof-carousel-nav-down-lt.png" ) no-repeat 50% 95% /* next */
+}
+
+.jcarousel-skin-nof:hover .jcarousel-next-vertical {
+	background-image: url( "../assets/images/nof-carousel-nav-down-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-next-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-down-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-up-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-down-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical:active {
+    background-image: url( "../assets/images/nof-carousel-nav-down-dk.png" )
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-vertical {
+    background: transparent url( "../assets/images/nof-carousel-nav-up-lt.png" ) no-repeat 50% 5% /* prev */
+}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-vertical {
+	background-image: url( "../assets/images/nof-carousel-nav-up-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-prev-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-up-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-down-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-up-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:active {
+    background-image: url( "../assets/images/nof-carousel-nav-up-dk.png" )
+}
